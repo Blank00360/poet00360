@@ -1,0 +1,43 @@
+body {
+  background: #121212;
+  color: #ddd;
+  font-family: "Arial", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.hero {
+  height: 100vh;
+  background: url("images/album.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-custom {
+  background: #ff3b3f;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+.btn-custom:hover {
+  background: #e33235;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #ff3b3f;
+}
+
+footer {
+  background: #000;
+}
